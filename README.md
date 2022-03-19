@@ -15,18 +15,18 @@ GET('/account/all'): you are able to get created accounts list.
 
 GET('/account'): you are able to get a specific accounts.
 
-POST('/account/all'): you are able to create new accounts.
+POST('/account'): you are able to create new accounts.
 
-PUT('/account/all'): you are able to update an account.
+PUT('/account'): you are able to update an account.
 
-DELETE('/account/all'): you are able to delete an account.
+DELETE('/account'): you are able to delete an account.
 
 GET('/statement'): you are able to get a specific statement.
 
 GET('/statement/date'): you are able to get a specific statement by date.
 
-post('/deposit'): you are able to deposit funds at some account.
+POST('/deposit'): you are able to deposit funds at some account.
 
-post('/withdrawal'): you are able to withdraw funds at some account.
+POST('/withdrawal'): you are able to withdraw funds at some account.
 
 GET('/balance'): you are able to get an account balance.
